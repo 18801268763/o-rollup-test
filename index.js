@@ -1,2 +1,2 @@
-const main = require("./bundle");
+const main = require("./dist/o");
 main();
