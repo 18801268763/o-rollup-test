@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "rollup-plugin-json": "^4.0.0"
+  },
+  "dependencies": {
+    "the-answer": "^1.0.0"
   }
 }
