@@ -10,9 +10,14 @@ export default {
   },
   plugins: [
     json(),
-    resolve(),
+    resolve({
+      customResolveOptions: {
+        moduleDirectory:"node_modules"
+      }
+    }),
     commonjs({
       include: 'node_modules/**'
     })
-  ]
+  ],
+  external:['lodash']
 };
